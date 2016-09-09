@@ -47,7 +47,7 @@ and open the template in the editor.
             $students['b789'] = $third;
             
             ksort($students);
-
+            
             foreach($students as $student){
                 echo $student->toString();
             }
